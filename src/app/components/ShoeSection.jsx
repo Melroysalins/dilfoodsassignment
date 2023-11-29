@@ -16,7 +16,7 @@ const ShoeSection = () => {
     <div className='flex flex-col'>
 
         <div className='flex w-full  mt-[30px] p-3'>
-            <h2 className='font-bold text-[24px]'>MEN'S Sneakers</h2>
+            <h2 className='font-bold text-[24px]'>MENS Sneakers</h2>
         </div>
 
         <div className='flex flex-col w-[100%]  mt-[30px] p-2'>
