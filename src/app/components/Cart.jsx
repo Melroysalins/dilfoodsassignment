@@ -18,7 +18,7 @@ const Cart = () => {
     if(!cart_Array) return null;
     
   return (
-    <div className='flex w-[700px]  flex-col shadow-md'>
+    <div className='flex w-[700px]  flex-col shadow-md max-md:w-[500px] max-sm:w-[420px]'>
 
         <div className='flex w-full justify-between items-center p-2 border' onClick={()=>(Setshowitems(!showitems))}>
 

@@ -55,9 +55,12 @@ const CartSlice = createSlice({
                     itemToDecrement.totalprice = itemToDecrement.Price * itemToDecrement.quantity;
                 }
             }
+        },
+
+        ClearCart:(state)=>{
+
+            state.Cart_array =[]
         }
-
-
 
     }
 })
@@ -65,4 +68,4 @@ const CartSlice = createSlice({
 
 export default CartSlice.reducer
 
-export const {ADD_TO_CART, Remove_From_Cart,IncrementQuantity,DecrementQuantity} = CartSlice.actions
+export const {ADD_TO_CART, Remove_From_Cart,IncrementQuantity,DecrementQuantity,ClearCart} = CartSlice.actions

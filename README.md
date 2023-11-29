@@ -16,21 +16,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Steaps To Run The Code
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 1 --> If Npm run dev or Yarn dev doesnot work then please write npm  install react and npm install react-dom
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 2 --> After that write npm run dev or yarn dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## About Project
 
-## Deploy on Vercel
+## 1 ----> Ecommerce App , in Utils folder there is Data.js from there I'm directiong getting the data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 2 --->  I have Created Reusable Components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 3 --->  Used Redux to store the Cart Items
+
+## 4 ---> If you try to add the same Items again in the cart then the quantity of that item will be increased  instead of again    pushing that item to redux store
+
+## 5 --->  User Can Increase the quantity of item and dynamically amount will be changed 
+
+## 6 ---> Atleast one Item should be there inside cart otherwise user cannot click on place order button
+
+## 7 ---> Responsive Design
